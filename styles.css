@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #E8BE02;
+}
+
+.navbar {
+    height: auto;
+    background-color: #4F4D53;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.navbar_container {
+    display: flex;
+    justify-content: center;
+    width: 55%;
+}
+
+.banner {
+    display: flex;
+    align-content: center;
+    text-align: center;
+    background-image: url(./media/img_hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100;
+    height: 70vh;
+}
+
+.banner_container {
+    width: 100%;
+    align-self: center;
+}
+
+.staff {
+    display: flex;
+    justify-content: center;
+    margin-top: -90px;
+    gap: 90px;
+}
+
+.main {
+    background-color: #FFFFFF;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.main_txt {
+    width: 45vw;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.footer {
+    background-color: #4F4D53;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_container {
+    display: flex;
+    justify-content: space-between;
+    height: 320px;
+    width: 45vw;
+    line-height: 0;
+    padding-top: 20px;
+}
+
+.footer_join_txt {
+    margin-top: 40px;
+}
+
+.footer_title {
+    margin-bottom: 40px;
+}
+
+h1   {
+    color: #4F4D53;
+    font-weight: 900;
+    font-size: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+h2   {
+    color: #E8BE02;
+    font-weight: 900;
+    font-size: 64px;
+    font-family: 'Roboto', sans-serif;
+}
+h3   {
+    color: #E8BE02;
+    font-weight: 900;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+h4   {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+p   {
+    color: #4F4D53;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media  screen and (max-width: 800px) {
+    .navbar {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar_container {
+        display: flex;
+        justify-content: center;
+        width: 55%;
+        height: auto;
+    }
+
+    .banner {
+        height: 70vh;
+    }
+    
+    .staff {
+        margin-top: -50px;
+        gap: 20px;
+    }
+
+    .staff_image {
+        width: 100px;
+    }
+
+    .main_txt {
+        width: 80vw;
+    }
+
+    .footer_container {
+        width: 85%;
+    }
+
+    h1   {
+        font-weight: 900;
+        font-size: 60px;
+    }
+
+    h2   {
+        font-size: 40px;
+    }
+}
